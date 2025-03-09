@@ -14,4 +14,8 @@ export class CountryService {
   getAllCountries() {
     return this.http.get<Country[]>(this.baseApiUrl + "countries")
   }
+
+  getCountryByName(name: string) {
+    return this.http.get<Country[]>(this.baseApiUrl + "countries/" + name)
+  }
 }

@@ -1,8 +1,4 @@
-<form class="edit-coutry-form" [formGroup]="form" (ngSubmit)="onSubmit()">
-  <label class="edit-coutry-form__label">
-    Название страны
-    <input class="country-name__input" type="text" formControlName ="name"/>
-  </label>
-  <button type="submit" class="edit-country-sbmt_btn">ОК</button>
-</form>
+<app-edit-country [country]="country">
+
+</app-edit-country>
 <router-outlet></router-outlet>

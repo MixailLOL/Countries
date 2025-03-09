@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { FormGroup, FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-edit-country',
@@ -7,5 +8,11 @@ import { Component } from '@angular/core';
   styleUrl: './edit-country.component.css'
 })
 export class EditCountryComponent {
-
+  form = new FormGroup({
+    name: new FormControl(null),
+  })
+  @Input() country!: string;
+  onSubmit() {
+    console.log(this.form.value)
+  }
 }
