@@ -1,5 +1,6 @@
-<h1>lol</h1>
-<app-country-card></app-country-card>
-<pre>
-{{countries | json }}
-</pre>
+<div class="country-card__wrapper">
+  @for(country of countries;  track country.id){
+    <app-country-card  [country] = "country">
+    </app-country-card>
+  }
+</div>

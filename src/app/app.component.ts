@@ -1,5 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { CountryService } from './data/services/country.service';
+import { Country } from './data/interfaces/country.interface';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +11,7 @@ import { CountryService } from './data/services/country.service';
 export class AppComponent {
   title = 'Countries';
   countryService = inject(CountryService)
-  countries: any = []
+  countries: Country[] = []
 
   constructor() {
     this.countryService.getAllCountries()
