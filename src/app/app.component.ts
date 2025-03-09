@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { CountryService } from './data/services/country.service';
 
 @Component({
   selector: 'app-root',
@@ -8,4 +9,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Countries';
+  countryService = inject(CountryService)
+  countries: any = []
+
+  constructor() {
+    this.countryService.getAllCountries()
+      .subscribe(
+        val => { this.countries = val }
+      )
+  }
 }
