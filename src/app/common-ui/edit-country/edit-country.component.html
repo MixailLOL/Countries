@@ -1,7 +1,7 @@
 <p><form class="edit-coutry-form" [formGroup]="form" (ngSubmit)="onSubmit()">
   <label class="edit-coutry-form__label">
     Название страны 
-    <input class="country-name__input" type="text" formControlName="name" placeholder="{{country}}"/>
+    <input class="country-name__input" type="text" formControlName="name" placeholder="{{country}}" [(ngModel)]="country"/>
   </label>
   <button type="submit" class="edit-country-sbmt_btn">ОК</button>
 </form>

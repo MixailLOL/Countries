@@ -11,6 +11,7 @@ export class EditCountryComponent {
   form = new FormGroup({
     name: new FormControl(null),
   })
+
   @Input() country!: string;
   onSubmit() {
     console.log(this.form.value)

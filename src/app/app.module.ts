@@ -8,7 +8,7 @@ import { provideHttpClient } from '@angular/common/http';
 import { EditCountryComponent } from './common-ui/edit-country/edit-country.component';
 import { SearchPageComponent } from './pages/search-page/search-page.component';
 import { EditPageComponent } from './pages/edit-page/edit-page.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,6 +22,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
+    FormsModule,
   ],
   providers: [provideHttpClient()],
   bootstrap: [AppComponent]
