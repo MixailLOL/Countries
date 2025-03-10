@@ -2,6 +2,7 @@ import { Component, inject, Input } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
 import { Country } from '../../data/interfaces/country.interface';
 import { CountryService } from '../../data/services/country.service';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-edit-country',
@@ -16,8 +17,6 @@ export class EditCountryComponent {
   })
 
   @Input() country!: Country;
- 
-
 
   countries: Country | undefined;
   editedCountry!: Country; 
@@ -28,10 +27,11 @@ export class EditCountryComponent {
       .subscribe(
         val => { this.countries = val }
     )
+    this.router.navigate([`/`]);
   }
 
 
-  constructor() {
+  constructor(private router: Router, private route: ActivatedRoute) {
     console.log(history.state)
   }
 }
