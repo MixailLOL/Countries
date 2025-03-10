@@ -23,5 +23,6 @@ export class EditPageComponent {
   countryCard!: Country;
   ngOnInit() {
     this.countryCard = history.state;
+    console.log(this.countryCard)
   }
 }
