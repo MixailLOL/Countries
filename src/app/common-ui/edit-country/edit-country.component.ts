@@ -39,6 +39,14 @@ export class EditCountryComponent {
     this.router.navigate([`/`]);
   }
 
+  deletCountry() {
+    this.editedCountry = { id: history.state.id, name: history.state.name }
+    this.countryService.deletCountry(this.editedCountry)
+      .subscribe(
+        val => { this.countries = val }
+    )
+    this.router.navigate([`/`]);
+  }
 
   constructor(private router: Router, private route: ActivatedRoute) {
     console.log()

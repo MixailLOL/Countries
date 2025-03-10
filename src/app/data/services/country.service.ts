@@ -19,6 +19,10 @@ export class CountryService {
     return this.http.get<Country>(this.baseApiUrl + "countries/" + id)
   }
 
+  deletCountry(country: Country) {
+    return this.http.delete<Country>(this.baseApiUrl + "countries/" + country.id)
+  }
+
   patchCountry(country: Country) {
     return this.http.patch<Country>(
       this.baseApiUrl + "countries/" + country.id,

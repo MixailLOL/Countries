@@ -3,6 +3,10 @@
     Название страны 
     <input class="country-name__input"  type="text" formControlName="name" placeholder="{{country.name}}" [(ngModel)]="country.name"/>
   </label>
-  <button type="submit" class="edit-country-sbmt_btn">ОК</button>
+  <div>
+    <button type="submit" class="edit-country-sbmt_btn">ОК</button>
+    <button (click)="deletCountry()" class="edit-country-dlt_btn">Удалить</button>
+  </div>
+
 </form>
 <router-outlet></router-outlet>
