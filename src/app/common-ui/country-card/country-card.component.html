@@ -2,9 +2,14 @@
 <div class="country-card">
   {{country.name}}
     <div class="county-edit-btn__div">
-        <button class="county-edit-btn__btn" [routerLink]="'/edit/'+[country.name]" [state]="country" >
+      <button class="county-edit-btn__btn" [routerLink]="'/edit/'+[country.name]" [state]="country">
+        @if(!createNew){
         Редактировать
-        </button>
+        }@else{
+        Добавить
+        }
+
+      </button>
     </div>
 </div>
 }@else{

@@ -48,8 +48,10 @@ export class EditCountryComponent {
     this.router.navigate([`/`]);
   }
 
+  cancel() {
+    this.router.navigate([`/`]);
+  }
   constructor(private router: Router, private route: ActivatedRoute) {
-    console.log()
     this.countryService.getAllCountries()
       .subscribe(
         val => {
@@ -59,7 +61,5 @@ export class EditCountryComponent {
           }
         }
     )
-    
-    
   }
 }

@@ -5,7 +5,10 @@
   </label>
   <div>
     <button type="submit" class="edit-country-sbmt_btn">ОК</button>
+    <button (click)="cancel()" class="edit-country-cancel_btn">Отмена</button>
+    @if(!createNew){
     <button (click)="deletCountry()" class="edit-country-dlt_btn">Удалить</button>
+    }
   </div>
 
 </form>
