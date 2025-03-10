@@ -15,7 +15,14 @@ export class CountryService {
     return this.http.get<Country[]>(this.baseApiUrl + "countries")
   }
 
-  getCountryByName(name: string) {
-    return this.http.get<Country[]>(this.baseApiUrl + "countries/" + name)
+  getCountryByName(id: number) {
+    return this.http.get<Country>(this.baseApiUrl + "countries/" + id)
+  }
+
+  patchCountr(country: Country) {
+    return this.http.patch<Country>(
+      this.baseApiUrl + "countries/" + country.id,
+      country
+    )
   }
 }

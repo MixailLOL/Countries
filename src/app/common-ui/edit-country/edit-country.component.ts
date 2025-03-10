@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
+import { Country } from '../../data/interfaces/country.interface';
 
 @Component({
   selector: 'app-edit-country',
@@ -12,7 +13,7 @@ export class EditCountryComponent {
     name: new FormControl(null),
   })
 
-  @Input() country!: string;
+  @Input() country!: Country;
   onSubmit() {
     console.log(this.form.value)
   }
