@@ -15,21 +15,21 @@ export class EditCountryComponent {
   form = new FormGroup({
     name: new FormControl(null),
   })
-  idForNew = 0;
+  idForNew = "";
   @Input() country!: Country;
   createNew = false;
   countries: Country | undefined;
   editedCountry!: Country; 
   onSubmit() {
     if (this.createNew) {
-      this.editedCountry = { id: history.state.id, name: history.state.name }
+      this.editedCountry = { id: this.idForNew, name: this.country.name }
       console.log("new ",this.editedCountry)
       this.countryService.postCountry(this.editedCountry)
         .subscribe(
           val => { this.countries = val }
         )
     } else {
-      this.editedCountry = { id: history.state.id, name: history.state.name }
+      this.editedCountry = { id: history.state.id, name: this.country.name }
       console.log("not new ",this.editedCountry)
       this.countryService.patchCountry(this.editedCountry)
         .subscribe(
@@ -40,7 +40,7 @@ export class EditCountryComponent {
   }
 
   deletCountry() {
-    this.editedCountry = { id: history.state.id, name: history.state.name }
+    this.editedCountry = { id: history.state.id, name: this.country.name }
     this.countryService.deletCountry(this.editedCountry)
       .subscribe(
         val => { this.countries = val }
@@ -52,14 +52,18 @@ export class EditCountryComponent {
     this.router.navigate([`/`]);
   }
   constructor(private router: Router, private route: ActivatedRoute) {
+    if (history.state['id'] == "new") {
+      this.createNew = true;
+    }
+    console.log(history.state, this.createNew)
     this.countryService.getAllCountries()
-      .subscribe(
-        val => {
-          this.idForNew = val.length;
-          if (history.state['id'] == this.idForNew + 1) {
-            this.createNew = true
-          }
+    .subscribe(
+      val => {
+        this.idForNew = (val.length + 1).toString();
+        if (this.createNew) {
+          this.country.name = "";
         }
+      }
     )
   }
 }

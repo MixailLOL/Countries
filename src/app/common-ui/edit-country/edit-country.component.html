@@ -1,8 +1,12 @@
 <p><form class="edit-coutry-form" [formGroup]="form" (ngSubmit)="onSubmit()">
-  <label class="edit-coutry-form__label">
-    Название страны 
-    <input class="country-name__input"  type="text" formControlName="name" placeholder="{{country.name}}" [(ngModel)]="country.name"/>
-  </label>
+     <label class="edit-coutry-form__label">
+       Название страны
+       @if(!createNew){
+        <input class="country-name__input" type="text" formControlName="name" placeholder="{{country.name}}" [(ngModel)]="country.name" />
+       }@else{
+        <input class="country-name__input" type="text" formControlName="name" [(ngModel)]="country.name"/>
+       }
+     </label>
   <div>
     <button type="submit" class="edit-country-sbmt_btn">ОК</button>
     <button (click)="cancel()" class="edit-country-cancel_btn">Отмена</button>

@@ -14,15 +14,15 @@ export class CountryCardComponent {
   countryService = inject(CountryService)
   idForNew = 0;
   createNew = false;
-  constructor(private router: Router, private route: ActivatedRoute) {
-    this.countryService.getAllCountries()
-      .subscribe(
-        val => {
-          this.idForNew = val.length;
-          if (this.country.id == (this.idForNew + 1).toString()) {
-            this.createNew = true
-          }
-        }
-      )
+
+  constructor() {
+    console.log(this.country)
+  }
+
+  ngOnInit() {
+    console.log(this.country)
+    if (this.country.id == "new") {
+      this.createNew = true
+    }
   }
 }
