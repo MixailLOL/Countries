@@ -2,9 +2,9 @@
 <div class="country-card">
   {{country.name}}
     <div class="county-edit-btn__div">
-      <button class="county-edit-btn__btn">
+        <button class="county-edit-btn__btn" [routerLink]="'/edit/'+[country.name]" >
         Редактировать
-      </button>
+        </button>
     </div>
 </div>
 }@else{
