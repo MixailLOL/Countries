@@ -19,9 +19,16 @@ export class CountryService {
     return this.http.get<Country>(this.baseApiUrl + "countries/" + id)
   }
 
-  patchCountr(country: Country) {
+  patchCountry(country: Country) {
     return this.http.patch<Country>(
       this.baseApiUrl + "countries/" + country.id,
+      country
+    )
+  }
+
+  postCountry(country: Country) {
+    return this.http.post<Country>(
+      this.baseApiUrl + "countries/",
       country
     )
   }

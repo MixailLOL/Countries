@@ -15,23 +15,43 @@ export class EditCountryComponent {
   form = new FormGroup({
     name: new FormControl(null),
   })
-
+  idForNew = 0;
   @Input() country!: Country;
-
+  createNew = false;
   countries: Country | undefined;
   editedCountry!: Country; 
   onSubmit() {
-    this.editedCountry = { id: history.state.id, name: history.state.name } 
-    console.log(this.editedCountry)
-    this.countryService.patchCountr(this.editedCountry)
-      .subscribe(
-        val => { this.countries = val }
-    )
+    if (this.createNew) {
+      this.editedCountry = { id: history.state.id, name: history.state.name }
+      console.log("new ",this.editedCountry)
+      this.countryService.postCountry(this.editedCountry)
+        .subscribe(
+          val => { this.countries = val }
+        )
+    } else {
+      this.editedCountry = { id: history.state.id, name: history.state.name }
+      console.log("not new ",this.editedCountry)
+      this.countryService.patchCountry(this.editedCountry)
+        .subscribe(
+          val => { this.countries = val }
+        )
+    }
     this.router.navigate([`/`]);
   }
 
 
   constructor(private router: Router, private route: ActivatedRoute) {
-    console.log(history.state)
+    console.log()
+    this.countryService.getAllCountries()
+      .subscribe(
+        val => {
+          this.idForNew = val.length;
+          if (history.state['id'] == this.idForNew + 1) {
+            this.createNew = true
+          }
+        }
+    )
+    
+    
   }
 }

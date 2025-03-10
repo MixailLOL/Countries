@@ -11,11 +11,12 @@ import { CountryService } from '../../data/services/country.service';
 export class SearchPageComponent {
   countryService = inject(CountryService)
   countries: Country[] = []
+  addNew!: Country;
 
   constructor() {
     this.countryService.getAllCountries()
       .subscribe(
-        val => { this.countries = val }
-      )
+        val => { this.countries = val; this.addNew = { name: "Добавить страну", id: (this.countries.length + 1).toString() } }
+    )
   }
 }
