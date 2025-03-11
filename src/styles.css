@@ -1,9 +1,3 @@
-:root{
-    --dark-color:#000000;
-    --light-color:#ffffff
-}
-
-body{
-    background: var(--dark-color);
-    color: var(--light-color)
+:root {
+  font-family: Roboto;
 }

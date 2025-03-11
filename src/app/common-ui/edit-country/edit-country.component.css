@@ -1,0 +1,29 @@
+:root {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+.edit-coutry-form {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.input-div {
+  display:flex;
+  margin:auto;
+}
+
+.btns-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.sbmt_btn {
+  text-align: right;
+}
+
+.dlt_btn {
+  text-align: left;
+}

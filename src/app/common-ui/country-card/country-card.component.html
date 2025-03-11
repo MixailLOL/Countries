@@ -1,8 +1,10 @@
 @if(country){
 <div class="country-card">
-  {{country.name}}
+  <div class="country-name">
+   {{country.name}}
+  </div>
     <div class="county-edit-btn__div">
-      <button class="county-edit-btn__btn" [routerLink]="'/edit/'+[country.name]" [state]="country">
+      <button mat-raised-button class="county-edit-btn__btn" [routerLink]="'/edit/'+[country.name]" [state]="country">
         @if(!createNew){
         Редактировать
         }@else{

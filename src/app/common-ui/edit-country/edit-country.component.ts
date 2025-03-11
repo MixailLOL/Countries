@@ -27,17 +27,20 @@ export class EditCountryComponent {
         console.log("new ",this.editedCountry)
         this.countryService.postCountry(this.editedCountry)
           .subscribe(
-            val => { this.countries = val }
+            val => {
+              this.countries = val;
+              this.router.navigate([`/`]);            }
           )
       } else {
         this.editedCountry = { id: history.state.id, name: this.country.name }
         console.log("not new ",this.editedCountry)
         this.countryService.patchCountry(this.editedCountry)
           .subscribe(
-            val => { this.countries = val }
+            val => {
+              this.countries = val;
+              this.router.navigate([`/`]);            }
           )
       }
-      this.router.navigate([`/`]);
     }
   }
 

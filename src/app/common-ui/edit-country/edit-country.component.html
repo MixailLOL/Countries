@@ -1,19 +1,28 @@
-<p><form class="edit-coutry-form" [formGroup]="form" (ngSubmit)="onSubmit()">
-     <label class="edit-coutry-form__label">
-       Название страны
-       @if(!createNew){
-        <input class="country-name__input" type="text" formControlName="name" maxlength="255"  placeholder="{{country.name}}" [(ngModel)]="country.name" />
-       }@else{
-        <input class="country-name__input" type="text" formControlName="name" maxlength="255"  [(ngModel)]="country.name"/>
-       }
-     </label>
-  <div>
-    <button type="submit" class="edit-country-sbmt_btn">ОК</button>
-    <button (click)="cancel()" class="edit-country-cancel_btn">Отмена</button>
+<div class="input-div">
+  <mat-form-field class="edit-coutry-form" [formGroup]="form" (ngSubmit)="onSubmit()">
+    <mat-label class="edit-coutry-form__label">
+      Название страны
+    </mat-label>
     @if(!createNew){
-    <button (click)="deletCountry()" class="edit-country-dlt_btn">Удалить</button>
+      <input matInput class="country-name__input" type="text" formControlName="name" maxlength="255" placeholder="{{country.name}}" [(ngModel)]="country.name" >
+    }@else{
+      <input matInput class="country-name__input" type="text" formControlName="name" maxlength="255" [(ngModel)]="country.name">
     }
+  </mat-form-field>
+</div>
+<div class="btns-div">
+  <div class="sbmt_btn">
+    <button mat-raised-button (click)="onSubmit()" class="edit-country-sbmt_btn">ОК</button>
   </div>
+  <div class="cncl_btn">
+    <button mat-raised-button (click)="cancel()" class="edit-country-cancel_btn">Отмена</button>
+  </div>
+  @if(!createNew){
+    <div class="dlt_btn">
+      <button mat-raised-button (click)="deletCountry()" class="edit-country-dlt_btn">Удалить</button>
+    </div>
+  }
 
-</form>
+</div>
+
 <router-outlet></router-outlet>
