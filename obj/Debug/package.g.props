@@ -4,7 +4,10 @@
     <PackageJsonName Condition="$(PackageJsonName) == ''">countries</PackageJsonName>
     <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">0.0.0</PackageJsonVersion>
     <PackageJsonScriptsNg Condition="$(PackageJsonScriptsNg) == ''">ng</PackageJsonScriptsNg>
-    <PackageJsonScriptsStart Condition="$(PackageJsonScriptsStart) == ''">ng serve --host=127.0.0.1</PackageJsonScriptsStart>
+    <PackageJsonScriptsNpx Condition="$(PackageJsonScriptsNpx) == ''">npx</PackageJsonScriptsNpx>
+    <PackageJsonScriptsStart Condition="$(PackageJsonScriptsStart) == ''">run-p start:angular start:jsonServer</PackageJsonScriptsStart>
+    <PackageJsonScriptsStartAngular Condition="$(PackageJsonScriptsStartAngular) == ''">ng serve --host=127.0.0.1</PackageJsonScriptsStartAngular>
+    <PackageJsonScriptsStartJsonserver Condition="$(PackageJsonScriptsStartJsonserver) == ''">npx json-server jsonServer/db.json</PackageJsonScriptsStartJsonserver>
     <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">ng build</PackageJsonScriptsBuild>
     <PackageJsonScriptsWatch Condition="$(PackageJsonScriptsWatch) == ''">ng build --watch --configuration development</PackageJsonScriptsWatch>
     <PackageJsonScriptsTest Condition="$(PackageJsonScriptsTest) == ''">ng test</PackageJsonScriptsTest>
@@ -20,6 +23,7 @@
     <PackageJsonDependenciesAngularPlatformBrowserDynamic Condition="$(PackageJsonDependenciesAngularPlatformBrowserDynamic) == ''">^19.2.0</PackageJsonDependenciesAngularPlatformBrowserDynamic>
     <PackageJsonDependenciesAngularRouter Condition="$(PackageJsonDependenciesAngularRouter) == ''">^19.2.0</PackageJsonDependenciesAngularRouter>
     <PackageJsonDependenciesJestEditorSupport Condition="$(PackageJsonDependenciesJestEditorSupport) == ''">*</PackageJsonDependenciesJestEditorSupport>
+    <PackageJsonDependenciesNpmRunAll Condition="$(PackageJsonDependenciesNpmRunAll) == ''">^4.1.5</PackageJsonDependenciesNpmRunAll>
     <PackageJsonDependenciesRxjs Condition="$(PackageJsonDependenciesRxjs) == ''">~7.8.0</PackageJsonDependenciesRxjs>
     <PackageJsonDependenciesTslib Condition="$(PackageJsonDependenciesTslib) == ''">^2.3.0</PackageJsonDependenciesTslib>
     <PackageJsonDependenciesZoneJs Condition="$(PackageJsonDependenciesZoneJs) == ''">~0.15.0</PackageJsonDependenciesZoneJs>
