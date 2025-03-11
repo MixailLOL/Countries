@@ -1,5 +1,5 @@
 import { Component, inject, Input } from '@angular/core';
-import { FormGroup, FormControl } from '@angular/forms';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { Country } from '../../data/interfaces/country.interface';
 import { CountryService } from '../../data/services/country.service';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
@@ -13,7 +13,7 @@ import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 export class EditCountryComponent {
   countryService = inject(CountryService)
   form = new FormGroup({
-    name: new FormControl(null),
+    name: new FormControl(null, Validators.required),
   })
   idForNew = "";
   @Input() country!: Country;
@@ -21,31 +21,34 @@ export class EditCountryComponent {
   countries: Country | undefined;
   editedCountry!: Country; 
   onSubmit() {
-    if (this.createNew) {
-      this.editedCountry = { id: this.idForNew, name: this.country.name }
-      console.log("new ",this.editedCountry)
-      this.countryService.postCountry(this.editedCountry)
-        .subscribe(
-          val => { this.countries = val }
-        )
-    } else {
-      this.editedCountry = { id: history.state.id, name: this.country.name }
-      console.log("not new ",this.editedCountry)
-      this.countryService.patchCountry(this.editedCountry)
-        .subscribe(
-          val => { this.countries = val }
-        )
+    if (this.form.valid) {
+      if (this.createNew) {
+        this.editedCountry = { id: this.idForNew, name: this.country.name }
+        console.log("new ",this.editedCountry)
+        this.countryService.postCountry(this.editedCountry)
+          .subscribe(
+            val => { this.countries = val }
+          )
+      } else {
+        this.editedCountry = { id: history.state.id, name: this.country.name }
+        console.log("not new ",this.editedCountry)
+        this.countryService.patchCountry(this.editedCountry)
+          .subscribe(
+            val => { this.countries = val }
+          )
+      }
+      this.router.navigate([`/`]);
     }
-    this.router.navigate([`/`]);
   }
 
   deletCountry() {
-    this.editedCountry = { id: history.state.id, name: this.country.name }
-    this.countryService.deletCountry(this.editedCountry)
-      .subscribe(
-        val => { this.countries = val }
-    )
-    this.router.navigate([`/`]);
+    if (confirm("Вы действительно хотите удалить эту запись?")) {
+      this.editedCountry = { id: history.state.id, name: this.country.name }
+      this.countryService.deletCountry(this.editedCountry)
+        .subscribe(
+          val => { this.countries = val; this.router.navigate([`/`]); }
+      )
+    }
   }
 
   cancel() {

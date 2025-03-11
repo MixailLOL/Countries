@@ -2,9 +2,9 @@
      <label class="edit-coutry-form__label">
        Название страны
        @if(!createNew){
-        <input class="country-name__input" type="text" formControlName="name" placeholder="{{country.name}}" [(ngModel)]="country.name" />
+        <input class="country-name__input" type="text" formControlName="name" maxlength="255"  placeholder="{{country.name}}" [(ngModel)]="country.name" />
        }@else{
-        <input class="country-name__input" type="text" formControlName="name" [(ngModel)]="country.name"/>
+        <input class="country-name__input" type="text" formControlName="name" maxlength="255"  [(ngModel)]="country.name"/>
        }
      </label>
   <div>

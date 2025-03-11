@@ -7,60 +7,64 @@
       "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\common-ui\\edit-country\\edit-country.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\common-ui\\edit-country\\edit-country.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\common-ui\\edit-country\\edit-country.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\common-ui\\country-card\\country-card.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\common-ui\\country-card\\country-card.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\pages\\edit-page\\edit-page.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\pages\\edit-page\\edit-page.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\pages\\edit-page\\edit-page.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\pages\\edit-page\\edit-page.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\common-ui\\edit-country\\edit-country.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\common-ui\\edit-country\\edit-country.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\common-ui\\country-card\\country-card.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\common-ui\\country-card\\country-card.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\pages\\search-page\\search-page.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\pages\\search-page\\search-page.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\pages\\search-page\\search-page.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\pages\\search-page\\search-page.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\pages\\search-page\\search-page.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\pages\\search-page\\search-page.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\common-ui\\edit-country\\edit-country.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\common-ui\\edit-country\\edit-country.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\pages\\edit-page\\edit-page.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\pages\\edit-page\\edit-page.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\common-ui\\country-card\\country-card.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\common-ui\\country-card\\country-card.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\common-ui\\country-card\\country-card.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\common-ui\\country-card\\country-card.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\pages\\search-page\\search-page.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\pages\\search-page\\search-page.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\pages\\edit-page\\edit-page.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\pages\\edit-page\\edit-page.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\data\\services\\country.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\data\\services\\country.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\common-ui\\edit-country\\edit-country.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\common-ui\\edit-country\\edit-country.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\data\\interfaces\\country.interface.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\data\\interfaces\\country.interface.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\pages\\search-page\\search-page.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\pages\\search-page\\search-page.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\app.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\app.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\pages\\edit-page\\edit-page.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\pages\\edit-page\\edit-page.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|solutionrelative:src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CDA00A32-B278-B718-F6FF-17CEDEC7F54C}|Countries.esproj|c:\\users\\medve\\desktop\\countries\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -74,47 +78,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "edit-country.component.ts",
-              "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\common-ui\\edit-country\\edit-country.component.ts",
-              "RelativeDocumentMoniker": "src\\app\\common-ui\\edit-country\\edit-country.component.ts",
-              "ToolTip": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\common-ui\\edit-country\\edit-country.component.ts",
-              "RelativeToolTip": "src\\app\\common-ui\\edit-country\\edit-country.component.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-03-09T19:37:15.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "edit-country.component.html",
-              "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\common-ui\\edit-country\\edit-country.component.html",
-              "RelativeDocumentMoniker": "src\\app\\common-ui\\edit-country\\edit-country.component.html",
-              "ToolTip": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\common-ui\\edit-country\\edit-country.component.html",
-              "RelativeToolTip": "src\\app\\common-ui\\edit-country\\edit-country.component.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAB4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-03-09T17:26:37.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "app.module.ts",
-              "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\app.module.ts",
-              "RelativeDocumentMoniker": "src\\app\\app.module.ts",
-              "ToolTip": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\app.module.ts",
-              "RelativeToolTip": "src\\app\\app.module.ts",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-03-09T14:47:32.675Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -123,7 +88,7 @@
               "RelativeDocumentMoniker": "src\\app\\pages\\edit-page\\edit-page.component.ts",
               "ToolTip": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\pages\\edit-page\\edit-page.component.ts",
               "RelativeToolTip": "src\\app\\pages\\edit-page\\edit-page.component.ts",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2025-03-09T17:35:38.146Z",
               "EditorCaption": ""
@@ -131,25 +96,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "edit-page.component.html",
-              "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\pages\\edit-page\\edit-page.component.html",
-              "RelativeDocumentMoniker": "src\\app\\pages\\edit-page\\edit-page.component.html",
-              "ToolTip": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\pages\\edit-page\\edit-page.component.html",
-              "RelativeToolTip": "src\\app\\pages\\edit-page\\edit-page.component.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-03-09T13:59:42.228Z",
+              "Title": "app-routing.module.ts",
+              "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\app-routing.module.ts",
+              "RelativeDocumentMoniker": "src\\app\\app-routing.module.ts",
+              "ToolTip": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\app-routing.module.ts",
+              "RelativeToolTip": "src\\app\\app-routing.module.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-09T14:47:35.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "search-page.component.ts",
+              "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\pages\\search-page\\search-page.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\pages\\search-page\\search-page.component.ts",
+              "ToolTip": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\pages\\search-page\\search-page.component.ts",
+              "RelativeToolTip": "src\\app\\pages\\search-page\\search-page.component.ts",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-10T18:42:47.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "edit-country.component.ts",
+              "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\common-ui\\edit-country\\edit-country.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\common-ui\\edit-country\\edit-country.component.ts",
+              "ToolTip": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\common-ui\\edit-country\\edit-country.component.ts",
+              "RelativeToolTip": "src\\app\\common-ui\\edit-country\\edit-country.component.ts",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAwD8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-09T19:37:15.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "edit-country.component.html",
+              "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\common-ui\\edit-country\\edit-country.component.html",
+              "RelativeDocumentMoniker": "src\\app\\common-ui\\edit-country\\edit-country.component.html",
+              "ToolTip": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\common-ui\\edit-country\\edit-country.component.html",
+              "RelativeToolTip": "src\\app\\common-ui\\edit-country\\edit-country.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-09T17:26:37.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "country-card.component.html",
               "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\common-ui\\country-card\\country-card.component.html",
               "RelativeDocumentMoniker": "src\\app\\common-ui\\country-card\\country-card.component.html",
               "ToolTip": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\common-ui\\country-card\\country-card.component.html",
               "RelativeToolTip": "src\\app\\common-ui\\country-card\\country-card.component.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-03-09T17:25:17.519Z",
               "EditorCaption": ""
@@ -157,6 +161,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "country-card.component.ts",
+              "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\common-ui\\country-card\\country-card.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\common-ui\\country-card\\country-card.component.ts",
+              "ToolTip": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\common-ui\\country-card\\country-card.component.ts",
+              "RelativeToolTip": "src\\app\\common-ui\\country-card\\country-card.component.ts",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-09T17:28:53.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "search-page.component.html",
+              "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\pages\\search-page\\search-page.component.html",
+              "RelativeDocumentMoniker": "src\\app\\pages\\search-page\\search-page.component.html",
+              "ToolTip": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\pages\\search-page\\search-page.component.html",
+              "RelativeToolTip": "src\\app\\pages\\search-page\\search-page.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-09T15:10:23.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "edit-page.component.html",
+              "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\pages\\edit-page\\edit-page.component.html",
+              "RelativeDocumentMoniker": "src\\app\\pages\\edit-page\\edit-page.component.html",
+              "ToolTip": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\pages\\edit-page\\edit-page.component.html",
+              "RelativeToolTip": "src\\app\\pages\\edit-page\\edit-page.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-09T13:59:42.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "country.service.ts",
+              "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\data\\services\\country.service.ts",
+              "RelativeDocumentMoniker": "src\\app\\data\\services\\country.service.ts",
+              "ToolTip": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\data\\services\\country.service.ts",
+              "RelativeToolTip": "src\\app\\data\\services\\country.service.ts",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwCAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-09T14:40:12.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "edit-country.component.css",
               "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\common-ui\\edit-country\\edit-country.component.css",
               "RelativeDocumentMoniker": "src\\app\\common-ui\\edit-country\\edit-country.component.css",
@@ -169,46 +225,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "country-card.component.ts",
-              "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\common-ui\\country-card\\country-card.component.ts",
-              "RelativeDocumentMoniker": "src\\app\\common-ui\\country-card\\country-card.component.ts",
-              "ToolTip": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\common-ui\\country-card\\country-card.component.ts",
-              "RelativeToolTip": "src\\app\\common-ui\\country-card\\country-card.component.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "country.interface.ts",
+              "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\data\\interfaces\\country.interface.ts",
+              "RelativeDocumentMoniker": "src\\app\\data\\interfaces\\country.interface.ts",
+              "ToolTip": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\data\\interfaces\\country.interface.ts",
+              "RelativeToolTip": "src\\app\\data\\interfaces\\country.interface.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-03-09T17:28:53.112Z",
+              "WhenOpened": "2025-03-09T14:45:52.988Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "search-page.component.ts",
-              "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\pages\\search-page\\search-page.component.ts",
-              "RelativeDocumentMoniker": "src\\app\\pages\\search-page\\search-page.component.ts",
-              "ToolTip": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\pages\\search-page\\search-page.component.ts",
-              "RelativeToolTip": "src\\app\\pages\\search-page\\search-page.component.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-03-09T14:45:20.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "search-page.component.html",
-              "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\pages\\search-page\\search-page.component.html",
-              "RelativeDocumentMoniker": "src\\app\\pages\\search-page\\search-page.component.html",
-              "ToolTip": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\pages\\search-page\\search-page.component.html",
-              "RelativeToolTip": "src\\app\\pages\\search-page\\search-page.component.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-03-09T15:10:23.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "search-page.component.css",
               "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\pages\\search-page\\search-page.component.css",
               "RelativeDocumentMoniker": "src\\app\\pages\\search-page\\search-page.component.css",
@@ -221,41 +251,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "app-routing.module.ts",
-              "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\app-routing.module.ts",
-              "RelativeDocumentMoniker": "src\\app\\app-routing.module.ts",
-              "ToolTip": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\app-routing.module.ts",
-              "RelativeToolTip": "src\\app\\app-routing.module.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-03-09T14:47:35.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "country.service.ts",
-              "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\data\\services\\country.service.ts",
-              "RelativeDocumentMoniker": "src\\app\\data\\services\\country.service.ts",
-              "ToolTip": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\data\\services\\country.service.ts",
-              "RelativeToolTip": "src\\app\\data\\services\\country.service.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-03-09T14:40:12.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "country.interface.ts",
-              "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\data\\interfaces\\country.interface.ts",
-              "RelativeDocumentMoniker": "src\\app\\data\\interfaces\\country.interface.ts",
-              "ToolTip": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\data\\interfaces\\country.interface.ts",
-              "RelativeToolTip": "src\\app\\data\\interfaces\\country.interface.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-03-09T14:45:52.988Z",
+              "Title": "app.component.css",
+              "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\app.component.css",
+              "RelativeDocumentMoniker": "src\\app\\app.component.css",
+              "ToolTip": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\app.component.css",
+              "RelativeToolTip": "src\\app\\app.component.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-10T09:59:50.149Z",
               "EditorCaption": ""
             },
             {
@@ -274,6 +278,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "app.module.ts",
+              "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\app.module.ts",
+              "RelativeDocumentMoniker": "src\\app\\app.module.ts",
+              "ToolTip": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\app.module.ts",
+              "RelativeToolTip": "src\\app\\app.module.ts",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-09T14:47:32.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "app.component.ts",
               "DocumentMoniker": "C:\\Users\\medve\\Desktop\\Countries\\src\\app\\app.component.ts",
               "RelativeDocumentMoniker": "src\\app\\app.component.ts",
@@ -281,8 +298,7 @@
               "RelativeToolTip": "src\\app\\app.component.ts",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-03-09T14:47:30.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T14:47:30.045Z"
             }
           ]
         }
