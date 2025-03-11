@@ -19,27 +19,29 @@ export class EditCountryComponent {
   @Input() country!: Country;
   createNew = false;
   countries: Country | undefined;
-  editedCountry!: Country; 
+  editedCountry!: Country;
+
   onSubmit() {
     if (this.form.valid) {
       if (this.createNew) {
         this.editedCountry = { id: this.idForNew, name: this.country.name }
         console.log("new ",this.editedCountry)
         this.countryService.postCountry(this.editedCountry)
-          .subscribe(
-            val => {
-              this.countries = val;
-              this.router.navigate([`/`]);            }
-          )
+        .subscribe(
+          val => {
+            this.countries = val;
+            this.router.navigate([`/`]);            }
+        )
       } else {
         this.editedCountry = { id: history.state.id, name: this.country.name }
         console.log("not new ",this.editedCountry)
         this.countryService.patchCountry(this.editedCountry)
-          .subscribe(
-            val => {
-              this.countries = val;
-              this.router.navigate([`/`]);            }
-          )
+        .subscribe(
+          val => {
+            this.countries = val;
+            this.router.navigate([`/`]);
+          }
+        )
       }
     }
   }
