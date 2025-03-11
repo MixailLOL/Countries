@@ -25,7 +25,6 @@ export class EditCountryComponent {
     if (this.form.valid) {
       if (this.createNew) {
         this.editedCountry = { id: this.idForNew, name: this.country.name }
-        console.log("new ",this.editedCountry)
         this.countryService.postCountry(this.editedCountry)
         .subscribe(
           val => {
@@ -34,7 +33,6 @@ export class EditCountryComponent {
         )
       } else {
         this.editedCountry = { id: history.state.id, name: this.country.name }
-        console.log("not new ",this.editedCountry)
         this.countryService.patchCountry(this.editedCountry)
         .subscribe(
           val => {
@@ -63,7 +61,6 @@ export class EditCountryComponent {
     if (history.state['id'] == "new") {
       this.createNew = true;
     }
-    console.log(history.state, this.createNew)
     this.countryService.getAllCountries()
     .subscribe(
       val => {

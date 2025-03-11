@@ -1,5 +1,4 @@
-import { Component, inject, Input } from '@angular/core';
-import { FormGroup, FormControl, ReactiveFormsModule } from '@angular/forms';
+import { Component, inject } from '@angular/core';
 import { CountryService } from '../../data/services/country.service';
 import { ActivatedRoute } from '@angular/router';
 import { map, Observable, switchMap, take, takeLast } from 'rxjs';
@@ -23,6 +22,5 @@ export class EditPageComponent {
   countryCard!: Country;
   ngOnInit() {
     this.countryCard = history.state;
-    console.log(history.state)
   }
 }

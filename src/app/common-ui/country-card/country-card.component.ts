@@ -1,6 +1,5 @@
 import { Component, EventEmitter, inject, Input, Output } from '@angular/core';
 import { Country } from '../../data/interfaces/country.interface';
-import { Router, ActivatedRoute } from '@angular/router';
 import { CountryService } from '../../data/services/country.service';
 
 @Component({
@@ -15,12 +14,7 @@ export class CountryCardComponent {
   idForNew = 0;
   createNew = false;
 
-  constructor() {
-    console.log(this.country)
-  }
-
   ngOnInit() {
-    console.log(this.country)
     if (this.country.id == "new") {
       this.createNew = true
     }
